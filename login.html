@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Burton Education</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <h2>Formulier</h2>
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
+        <div class="form-group">
+            <label for="voornaam"> Voornaam: </label>
+            <input class="radio" type="text" name="voornaam" id="voornaam" required>
+        </div>
+
+        <div class="form-group">
+            <label for="tussenvoegsel"> Tussenvoegsel: </label>
+            <input class="radio" type="text" name="achternaam" id="tussenvoegsel">
+        </div>
+
+        <div class="form-group">
+            <label for="achternaam"> Achternaam :</label>
+            <input class="radio" type="text" name="achternaam" id="achternaam" required>
+        </div>
+
+        <div>
+            <label class="SinglePosition" for="geslacht" id="geslacht"> Geslacht: </label>
+            <div class="position">
+            <input type="radio" name="geslacht" value="man" required/>
+            &nbsp;Man
+            <input type="radio" name="geslacht" value="vrouw" required/>
+            &nbsp;Vrouw
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label> Kleur ogen: </label>
+            <select class="KOposition" name="kleur-ogen" required>
+                <option>groen</option>
+                <option>blauw</option>
+                <option>bruin</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label> Geboorte Datum: </label>
+            <input class="position2" type="date" name="geboortedatum" required/>
+        </div></br>
+
+        <div>
+            <label class="SinglePosition" > Omschrijving: </label>
+            <textarea rows="7" cols="40" name="omschrijving" required></textarea>
+        </div></br></br></br></br></br></br>
+
+        <div class="buttons">
+            <input type="button" name="button" id="button" value="Annuleer" onclick="window.location.href='educatie.html'">
+            <input type="submit" name="submit" id="submit" value="Ok">
+        </div>
+
+
+        <div class="checkboxlb">
+        <label for="lekker-eten" id="lekker-eten">Lekker eten:</label>
+        </div>
+            <div class="checkbox">
+        <input type="checkbox" name="lekker-eten" value="patat">
+            <span class="checkbox">patat</span><br>
+         <input type="checkbox" name="lekker-eten" value="bruine bonen">
+            <span class="checkbox">bruine bonen</span><br>
+         <input type="checkbox" name="lekker-eten" value="linzen">
+            <span class="checkbox">linzen</span>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+div.form-group {
+    width: 425px;
+    padding: 10px;
+}
+
+.radio {
+    float: right;
+    width: 300px;
+}
+
+.position {
+    float: right;
+    position: relative;
+    left: 24.5%;
+}
+
+.position{
+    float: right;
+    position: relative;
+    left: -75.5%;
+}
+
+.position2 {
+    float: right;
+    position: relative;
+    left: 52.5%;
+}
+
+.position2{
+    float: right;
+    position: relative;
+    left: -37.5%;
+}
+
+.KOposition {
+    float: right;
+    position: relative;
+    left: 42.5%;
+}
+
+.KOposition{
+    float: right;
+    position: relative;
+    left: -57.5%;
+}
+
+.buttons {
+    display: inline-block;
+    position: absolute;
+    top: 440px;
+    right: 380px;
+}
+
+.SinglePosition {
+    width: 425px;
+    padding: 10px;
+}
+
+textarea {
+    float: right;
+    position: relative;
+    left: 41%;
+}
+
+textarea {
+    float: right;
+    position: relative;
+    left: -59%;
+}
+
+div.checkbox {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right: 380px;
+}
+
+div.checkboxlb {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right: 500px;
+}
