@@ -1,6 +1,6 @@
 #slideholder1 {
-    height: 900px;
-    width: 450px;
+    height: 700px;
+    width: 350px;
     border: 3px black solid;
     border-right: 1px black solid;
     transition: 1s;
@@ -8,8 +8,8 @@
 }
 
 #slideholder2 {
-    height: 900px;
-    width: 450px;
+    height: 700px;
+    width: 350px;
     border: 3px black solid;
     border-right: 1px black solid;
     border-left: 2px black solid;
@@ -18,8 +18,8 @@
 }
 
 #slideholder3 {
-    height: 900px;
-    width: 450px;
+    height: 700px;
+    width: 350px;
     border: 3px black solid;
     border-left: 2px black solid;
     transition: 1s;
